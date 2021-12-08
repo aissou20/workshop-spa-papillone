@@ -1,0 +1,129 @@
+#section1 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+}
+.container-accueil{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 95vh;
+    background: rosybrown;
+}
+.papillone-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.papillone-text {
+    position: absolute;
+    top: 90px;
+    /*left: 228px;*/
+}
+.papillone-text img {
+    width: inherit;
+}
+
+/*.papillone-stick{
+    position: absolute;
+    width: 298px;
+    height: 348.58px;
+    left: 440px;
+    top: 165.42px;
+}*/
+
+.ellipse {
+    position: absolute;
+    top: 14rem;
+    left: -3.2rem;
+}
+
+.feuillage-top img {
+    width: inherit;
+}
+
+.feuillage-top {
+    position: absolute;
+    right: -19px;
+    top: -3rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    -ms-transform: rotate(-1deg);
+    transform: rotate(
+            -1deg);
+}
+
+.feuillage-droite {
+    position: absolute;
+    right: -8px;
+    top: 14.5rem;
+}
+
+.feuillage-bottom .feuille-gauche {
+    position: absolute;
+    left: -2rem;
+    top: 30rem;
+    transform: rotate(
+            0deg);
+}
+
+.feuille-gauche img {
+    width: inherit;
+}
+
+.plant img {
+    width: inherit;
+}
+
+.feuillage-bottom .plant {
+    position: absolute;
+    left: -4rem;
+    top: 390px;
+    transform: rotate(
+            -8deg);
+}
+
+.picto-facebook {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 120px;
+    top: 5em;
+}
+
+.picto-instagram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 120px;
+    top: 8em;
+}
+
+.block-social .grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.papillone-stick {
+    /* position: fixed;*/
+    position: absolute;
+    top: 12rem;
+}
+
+.stick {
+    position: relative;
+    z-index: 1;
+    top: -6em;
+    left: 0.8em;
+}
+
+@media screen and (max-width: 1440px) {
+    #section1 {
+        /*overflow: hidden;*/
+    }
+}

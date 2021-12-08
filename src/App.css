@@ -1,0 +1,20 @@
+.body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.app-papillone {
+    /* display: flex;
+    // flex-direction: column;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+
+}
